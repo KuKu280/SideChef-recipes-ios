@@ -1,0 +1,6 @@
+framework module Pods_SideChef_RecipesTests {
+  umbrella header "Pods-SideChef-RecipesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78E6F40E2C52325D00D3590D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E6F40D2C52325D00D3590D /* AppDelegate.swift */; };
+		78E6F4102C52325D00D3590D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E6F40F2C52325D00D3590D /* SceneDelegate.swift */; };
+		78E6F4122C52325D00D3590D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E6F4112C52325D00D3590D /* ViewController.swift */; };
+		78E6F4152C52325D00D3590D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 78E6F4142C52325D00D3590D /* Base */; };
+		78E6F4172C52325E00D3590D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E6F4162C52325E00D3590D /* Assets.xcassets */; };
+		78E6F41A2C52325E00D3590D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 78E6F4192C52325E00D3590D /* Base */; };
+		78E6F4252C52325E00D3590D /* SideChef_RecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E6F4242C52325E00D3590D /* SideChef_RecipesTests.swift */; };
+		78E6F42F2C52325E00D3590D /* SideChef_RecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E6F42E2C52325E00D3590D /* SideChef_RecipesUITests.swift */; };
+		78E6F4312C52325E00D3590D /* SideChef_RecipesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E6F4302C52325E00D3590D /* SideChef_RecipesUITestsLaunchTests.swift */; };
+		78E6F4522C5233B700D3590D /* CommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E6F4512C5233B700D3590D /* CommonUI.framework */; };
+		78E6F4532C5233B700D3590D /* CommonUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78E6F4512C5233B700D3590D /* CommonUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		78E6F4CB2C52AED000D3590D /* Dashboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E6F4CA2C52AED000D3590D /* Dashboard.framework */; };
+		78E6F4CC2C52AED000D3590D /* Dashboard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78E6F4CA2C52AED000D3590D /* Dashboard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		94FAFC477EDC8DE601F49C56 /* Pods_SideChef_Recipes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940F8CC368531A6ACF98E13A /* Pods_SideChef_Recipes.framework */; };
+		B628C7A9F0137C3C51C3DDC2 /* Pods_SideChef_RecipesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A26A76C1234D746762D188D /* Pods_SideChef_RecipesUITests.framework */; };
+		C8F0B487A8342BE4997C1AD9 /* Pods_SideChef_RecipesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C141CAF71B821E888A7C1C5F /* Pods_SideChef_RecipesTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78E6F4212C52325E00D3590D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78E6F4022C52325D00D3590D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78E6F4092C52325D00D3590D;
+			remoteInfo = "SideChef-Recipes";
+		};
+		78E6F42B2C52325E00D3590D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78E6F4022C52325D00D3590D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78E6F4092C52325D00D3590D;
+			remoteInfo = "SideChef-Recipes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		78E6F4542C5233B700D3590D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				78E6F4532C5233B700D3590D /* CommonUI.framework in Embed Frameworks */,
+				78E6F4CC2C52AED000D3590D /* Dashboard.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		15F70454A68289B5C5AB985B /* Pods-SideChef-RecipesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideChef-RecipesTests.debug.xcconfig"; path = "Target Support Files/Pods-SideChef-RecipesTests/Pods-SideChef-RecipesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		78E6F40A2C52325D00D3590D /* SideChef-Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SideChef-Recipes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E6F40D2C52325D00D3590D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78E6F40F2C52325D00D3590D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		78E6F4112C52325D00D3590D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78E6F4142C52325D00D3590D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78E6F4162C52325E00D3590D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78E6F4192C52325E00D3590D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78E6F41B2C52325E00D3590D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78E6F4202C52325E00D3590D /* SideChef-RecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SideChef-RecipesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E6F4242C52325E00D3590D /* SideChef_RecipesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideChef_RecipesTests.swift; sourceTree = "<group>"; };
+		78E6F42A2C52325E00D3590D /* SideChef-RecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SideChef-RecipesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E6F42E2C52325E00D3590D /* SideChef_RecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideChef_RecipesUITests.swift; sourceTree = "<group>"; };
+		78E6F4302C52325E00D3590D /* SideChef_RecipesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideChef_RecipesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		78E6F4512C5233B700D3590D /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E6F4CA2C52AED000D3590D /* Dashboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Dashboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DAF3C3599478A699331CFC4 /* Pods-SideChef-RecipesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideChef-RecipesUITests.release.xcconfig"; path = "Target Support Files/Pods-SideChef-RecipesUITests/Pods-SideChef-RecipesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8A26A76C1234D746762D188D /* Pods_SideChef_RecipesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SideChef_RecipesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		940F8CC368531A6ACF98E13A /* Pods_SideChef_Recipes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SideChef_Recipes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99893399CFF0B2E2FB390ED4 /* Pods-SideChef-RecipesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideChef-RecipesTests.release.xcconfig"; path = "Target Support Files/Pods-SideChef-RecipesTests/Pods-SideChef-RecipesTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B6EB1FE3E2FF97CAC8D71F0 /* Pods-SideChef-Recipes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideChef-Recipes.release.xcconfig"; path = "Target Support Files/Pods-SideChef-Recipes/Pods-SideChef-Recipes.release.xcconfig"; sourceTree = "<group>"; };
+		C141CAF71B821E888A7C1C5F /* Pods_SideChef_RecipesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SideChef_RecipesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E867EF7255D302D2E8B56671 /* Pods-SideChef-Recipes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideChef-Recipes.debug.xcconfig"; path = "Target Support Files/Pods-SideChef-Recipes/Pods-SideChef-Recipes.debug.xcconfig"; sourceTree = "<group>"; };
+		E9D4B0B9781D18E307BB80EA /* Pods-SideChef-RecipesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideChef-RecipesUITests.debug.xcconfig"; path = "Target Support Files/Pods-SideChef-RecipesUITests/Pods-SideChef-RecipesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78E6F4072C52325D00D3590D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E6F4CB2C52AED000D3590D /* Dashboard.framework in Frameworks */,
+				78E6F4522C5233B700D3590D /* CommonUI.framework in Frameworks */,
+				94FAFC477EDC8DE601F49C56 /* Pods_SideChef_Recipes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E6F41D2C52325E00D3590D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F0B487A8342BE4997C1AD9 /* Pods_SideChef_RecipesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E6F4272C52325E00D3590D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B628C7A9F0137C3C51C3DDC2 /* Pods_SideChef_RecipesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B3CF9A5FD7BE7800B58D07E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E867EF7255D302D2E8B56671 /* Pods-SideChef-Recipes.debug.xcconfig */,
+				9B6EB1FE3E2FF97CAC8D71F0 /* Pods-SideChef-Recipes.release.xcconfig */,
+				15F70454A68289B5C5AB985B /* Pods-SideChef-RecipesTests.debug.xcconfig */,
+				99893399CFF0B2E2FB390ED4 /* Pods-SideChef-RecipesTests.release.xcconfig */,
+				E9D4B0B9781D18E307BB80EA /* Pods-SideChef-RecipesUITests.debug.xcconfig */,
+				7DAF3C3599478A699331CFC4 /* Pods-SideChef-RecipesUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		78E6F4012C52325D00D3590D = {
+			isa = PBXGroup;
+			children = (
+				78E6F40C2C52325D00D3590D /* SideChef-Recipes */,
+				78E6F4232C52325E00D3590D /* SideChef-RecipesTests */,
+				78E6F42D2C52325E00D3590D /* SideChef-RecipesUITests */,
+				78E6F40B2C52325D00D3590D /* Products */,
+				1B3CF9A5FD7BE7800B58D07E /* Pods */,
+				F62C09F9845D155ABF825F46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78E6F40B2C52325D00D3590D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78E6F40A2C52325D00D3590D /* SideChef-Recipes.app */,
+				78E6F4202C52325E00D3590D /* SideChef-RecipesTests.xctest */,
+				78E6F42A2C52325E00D3590D /* SideChef-RecipesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78E6F40C2C52325D00D3590D /* SideChef-Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				78E6F4552C52349600D3590D /* AppDelegate */,
+				78E6F4592C5234CA00D3590D /* PresentationLayer */,
+				78E6F4562C5234A400D3590D /* Storyboards */,
+				78E6F4572C5234AF00D3590D /* Resources */,
+				78E6F4582C5234BB00D3590D /* AppConfig */,
+			);
+			path = "SideChef-Recipes";
+			sourceTree = "<group>";
+		};
+		78E6F4232C52325E00D3590D /* SideChef-RecipesTests */ = {
+			isa = PBXGroup;
+			children = (
+				78E6F4242C52325E00D3590D /* SideChef_RecipesTests.swift */,
+			);
+			path = "SideChef-RecipesTests";
+			sourceTree = "<group>";
+		};
+		78E6F42D2C52325E00D3590D /* SideChef-RecipesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78E6F42E2C52325E00D3590D /* SideChef_RecipesUITests.swift */,
+				78E6F4302C52325E00D3590D /* SideChef_RecipesUITestsLaunchTests.swift */,
+			);
+			path = "SideChef-RecipesUITests";
+			sourceTree = "<group>";
+		};
+		78E6F4552C52349600D3590D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				78E6F40D2C52325D00D3590D /* AppDelegate.swift */,
+				78E6F40F2C52325D00D3590D /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		78E6F4562C5234A400D3590D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				78E6F4132C52325D00D3590D /* Main.storyboard */,
+				78E6F4182C52325E00D3590D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		78E6F4572C5234AF00D3590D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78E6F4162C52325E00D3590D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		78E6F4582C5234BB00D3590D /* AppConfig */ = {
+			isa = PBXGroup;
+			children = (
+				78E6F41B2C52325E00D3590D /* Info.plist */,
+			);
+			path = AppConfig;
+			sourceTree = "<group>";
+		};
+		78E6F4592C5234CA00D3590D /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				78E6F4112C52325D00D3590D /* ViewController.swift */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		F62C09F9845D155ABF825F46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78E6F4CA2C52AED000D3590D /* Dashboard.framework */,
+				78E6F4512C5233B700D3590D /* CommonUI.framework */,
+				940F8CC368531A6ACF98E13A /* Pods_SideChef_Recipes.framework */,
+				C141CAF71B821E888A7C1C5F /* Pods_SideChef_RecipesTests.framework */,
+				8A26A76C1234D746762D188D /* Pods_SideChef_RecipesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78E6F4092C52325D00D3590D /* SideChef-Recipes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E6F4342C52325E00D3590D /* Build configuration list for PBXNativeTarget "SideChef-Recipes" */;
+			buildPhases = (
+				3B24979586F30C086AE547D7 /* [CP] Check Pods Manifest.lock */,
+				78E6F4062C52325D00D3590D /* Sources */,
+				78E6F4072C52325D00D3590D /* Frameworks */,
+				78E6F4082C52325D00D3590D /* Resources */,
+				78E6F4542C5233B700D3590D /* Embed Frameworks */,
+				1C7924E1CD3DA7E67AEA6BCE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SideChef-Recipes";
+			productName = "SideChef-Recipes";
+			productReference = 78E6F40A2C52325D00D3590D /* SideChef-Recipes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78E6F41F2C52325E00D3590D /* SideChef-RecipesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E6F4372C52325E00D3590D /* Build configuration list for PBXNativeTarget "SideChef-RecipesTests" */;
+			buildPhases = (
+				1D5B207E2ACBE43862AE22A7 /* [CP] Check Pods Manifest.lock */,
+				78E6F41C2C52325E00D3590D /* Sources */,
+				78E6F41D2C52325E00D3590D /* Frameworks */,
+				78E6F41E2C52325E00D3590D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78E6F4222C52325E00D3590D /* PBXTargetDependency */,
+			);
+			name = "SideChef-RecipesTests";
+			productName = "SideChef-RecipesTests";
+			productReference = 78E6F4202C52325E00D3590D /* SideChef-RecipesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78E6F4292C52325E00D3590D /* SideChef-RecipesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E6F43A2C52325E00D3590D /* Build configuration list for PBXNativeTarget "SideChef-RecipesUITests" */;
+			buildPhases = (
+				B832184B7DA1025AF6A76F4B /* [CP] Check Pods Manifest.lock */,
+				78E6F4262C52325E00D3590D /* Sources */,
+				78E6F4272C52325E00D3590D /* Frameworks */,
+				78E6F4282C52325E00D3590D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78E6F42C2C52325E00D3590D /* PBXTargetDependency */,
+			);
+			name = "SideChef-RecipesUITests";
+			productName = "SideChef-RecipesUITests";
+			productReference = 78E6F42A2C52325E00D3590D /* SideChef-RecipesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78E6F4022C52325D00D3590D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					78E6F4092C52325D00D3590D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					78E6F41F2C52325E00D3590D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 78E6F4092C52325D00D3590D;
+					};
+					78E6F4292C52325E00D3590D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 78E6F4092C52325D00D3590D;
+					};
+				};
+			};
+			buildConfigurationList = 78E6F4052C52325D00D3590D /* Build configuration list for PBXProject "SideChef-Recipes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78E6F4012C52325D00D3590D;
+			productRefGroup = 78E6F40B2C52325D00D3590D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78E6F4092C52325D00D3590D /* SideChef-Recipes */,
+				78E6F41F2C52325E00D3590D /* SideChef-RecipesTests */,
+				78E6F4292C52325E00D3590D /* SideChef-RecipesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78E6F4082C52325D00D3590D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E6F4172C52325E00D3590D /* Assets.xcassets in Resources */,
+				78E6F41A2C52325E00D3590D /* Base in Resources */,
+				78E6F4152C52325D00D3590D /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E6F41E2C52325E00D3590D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E6F4282C52325E00D3590D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C7924E1CD3DA7E67AEA6BCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SideChef-Recipes/Pods-SideChef-Recipes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SideChef-Recipes/Pods-SideChef-Recipes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SideChef-Recipes/Pods-SideChef-Recipes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D5B207E2ACBE43862AE22A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SideChef-RecipesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B24979586F30C086AE547D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SideChef-Recipes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B832184B7DA1025AF6A76F4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SideChef-RecipesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78E6F4062C52325D00D3590D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E6F4122C52325D00D3590D /* ViewController.swift in Sources */,
+				78E6F40E2C52325D00D3590D /* AppDelegate.swift in Sources */,
+				78E6F4102C52325D00D3590D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E6F41C2C52325E00D3590D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E6F4252C52325E00D3590D /* SideChef_RecipesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E6F4262C52325E00D3590D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E6F42F2C52325E00D3590D /* SideChef_RecipesUITests.swift in Sources */,
+				78E6F4312C52325E00D3590D /* SideChef_RecipesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78E6F4222C52325E00D3590D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78E6F4092C52325D00D3590D /* SideChef-Recipes */;
+			targetProxy = 78E6F4212C52325E00D3590D /* PBXContainerItemProxy */;
+		};
+		78E6F42C2C52325E00D3590D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78E6F4092C52325D00D3590D /* SideChef-Recipes */;
+			targetProxy = 78E6F42B2C52325E00D3590D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78E6F4132C52325D00D3590D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78E6F4142C52325D00D3590D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78E6F4182C52325E00D3590D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78E6F4192C52325E00D3590D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78E6F4322C52325E00D3590D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78E6F4332C52325E00D3590D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78E6F4352C52325E00D3590D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E867EF7255D302D2E8B56671 /* Pods-SideChef-Recipes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SideChef-Recipes/AppConfig/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuku.SideChef-Recipes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78E6F4362C52325E00D3590D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6EB1FE3E2FF97CAC8D71F0 /* Pods-SideChef-Recipes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SideChef-Recipes/AppConfig/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuku.SideChef-Recipes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78E6F4382C52325E00D3590D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15F70454A68289B5C5AB985B /* Pods-SideChef-RecipesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuku.SideChef-RecipesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SideChef-Recipes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SideChef-Recipes";
+			};
+			name = Debug;
+		};
+		78E6F4392C52325E00D3590D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99893399CFF0B2E2FB390ED4 /* Pods-SideChef-RecipesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuku.SideChef-RecipesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SideChef-Recipes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SideChef-Recipes";
+			};
+			name = Release;
+		};
+		78E6F43B2C52325E00D3590D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D4B0B9781D18E307BB80EA /* Pods-SideChef-RecipesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuku.SideChef-RecipesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SideChef-Recipes";
+			};
+			name = Debug;
+		};
+		78E6F43C2C52325E00D3590D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DAF3C3599478A699331CFC4 /* Pods-SideChef-RecipesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuku.SideChef-RecipesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SideChef-Recipes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78E6F4052C52325D00D3590D /* Build configuration list for PBXProject "SideChef-Recipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E6F4322C52325E00D3590D /* Debug */,
+				78E6F4332C52325E00D3590D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78E6F4342C52325E00D3590D /* Build configuration list for PBXNativeTarget "SideChef-Recipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E6F4352C52325E00D3590D /* Debug */,
+				78E6F4362C52325E00D3590D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78E6F4372C52325E00D3590D /* Build configuration list for PBXNativeTarget "SideChef-RecipesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E6F4382C52325E00D3590D /* Debug */,
+				78E6F4392C52325E00D3590D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78E6F43A2C52325E00D3590D /* Build configuration list for PBXNativeTarget "SideChef-RecipesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E6F43B2C52325E00D3590D /* Debug */,
+				78E6F43C2C52325E00D3590D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78E6F4022C52325D00D3590D /* Project object */;
+}
